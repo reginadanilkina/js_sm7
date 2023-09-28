@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Добавление новостей</title>
+</head>
+<body>
+    <div class="header">НОВОСТИ</div>
+    <div class="newsForm">
+        <div class="news">
+            <div id="new"></div>
+        </div>
+        <div>
+            <h1>Добавление новости</h1>
+            <form id="newsForm">
+                <input type="text" id="title" placeholder="Введите название новости" required>
+                <input type="text" id="author" placeholder="Введите автора" required>
+                <input type="date" id="date" placeholder="Введите дату" required>
+                <textarea id="text" placeholder="Введите текст новости" required></textarea>
+                <button type="submit">Добавить новость</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
